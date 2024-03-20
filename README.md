@@ -79,3 +79,19 @@ Utiliza el comando `git pull`, que sirve para bajar a nuestro directorio local c
 ```
 
 ```
+
+Ejercicio práctico:
+
+Estás haciendo un curso en Alura y te gustaría dividir el código del proyecto por aulas, para organizarse mejor, no perder el código antíguo después de una refactorización y conseguir revisar tu evolución. ¿Cómo puedes hacer eso?
+
+Camino 1: crear una branch para cada clase del curso con el comando:
+
+git checkout -b git branch nombre-de-la-branch
+COPIA EL CÓDIGO
+Con este comando, crearás una nueva branch y cambiarás automáticamente a ella para dar inicio al proceso de desarrollo.
+
+Camino 2: crear una branch para cada clase del curso con el comando:
+
+git branch nombre-de-la-branch
+COPIA EL CÓDIGO
+Esta es otra forma de crear una branch. En este caso, ella es creada, pero no hay cambio automático a esta nueva ramificación. Para eso, puedes usar el comando git switch nombre-de-la-branch.
