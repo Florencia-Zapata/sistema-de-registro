@@ -54,6 +54,28 @@ Para limpiar la terminal de git bash:
 
 `clear`
 
+- Para verificar los cambios realizados:
+
+  Utiliza el comando `git status`, sirve para listar todos los archivos que han sido modificados.
+
+2 - Para agregar los cambios al repositorio local:
+
+Para agregar los cambios realizados de una sola vez, es necesario usar `git add . `(git add y un punto) y, para agregar los cambios en algún archivo específico, usamos a `git add nombre-del-archivo-modificado`.
+
+3 - Para guardar los cambios:
+
+Utiliza el comando `git commit -m "Comentario que quiero"`, que sirve para capturar y guardar el estado actual del repositorio.
+
+4 - Para enviar las modificaciones al repositorio remoto:
+
+Utiliza el comando `git push`, que sirve para enviar las modificaciones guardadas en el directorio local para el repositorio remoto.
+
+5 - Para bajar al repositorio local cambios realizados en el repositorio que esta en github:
+
+Utiliza el comando `git pull`, que sirve para bajar a nuestro directorio local cualquier modificación realizada en el repositorio remoto. Siempre chequear con `git status` para saber que estoy bien parada.
+
+6 - Para restaurar archivos y el proyecto, volviendo a un estado anterior a través de `git restore`.
+
 ```
 
 ```
